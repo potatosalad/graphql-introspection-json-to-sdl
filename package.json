@@ -1,6 +1,6 @@
 {
   "name": "graphql-introspection-json-to-sdl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prints the GraphQL schema SDL from a GraphQL schema JSON introspection",
   "bin": "dist/index.js",
   "files": [

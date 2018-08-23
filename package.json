@@ -1,0 +1,31 @@
+{
+  "name": "graphql-introspection-json-to-sdl",
+  "version": "1.0.0",
+  "description": "Prints the GraphQL schema SDL from a GraphQL schema JSON introspection",
+  "bin": "dist/index.js",
+  "files": [
+    "README.md",
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build && chmod +x dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potatosalad/graphql-introspection-json-to-sdl.git"
+  },
+  "author": "Andrew Bennett <potatosaladx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/graphql": "^0.13.4",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^10.7.1",
+    "graphql": "^14.0.0-rc.2",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
